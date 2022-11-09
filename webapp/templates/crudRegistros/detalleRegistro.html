@@ -1,0 +1,16 @@
+{% extends '../index_master.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>
+
+</h1>
+<div class="right_col" role="main">
+    <h1>Detalle del registro</h1>
+    <div>codregistro: {{registro.codregistro}}</div>
+    <div>DNI: {{registro.DNI}}</div>
+    <div>codactividad: {{registro.codactividad}}</div>
+    <div>fecha: {{registro.fecha}}</div>
+
+</div>
+<!-- /page content -->
+{% endblock %}

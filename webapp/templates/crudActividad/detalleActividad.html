@@ -1,0 +1,18 @@
+{% extends '../index_master.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>
+
+</h1>
+<div class="right_col" role="main">
+    <h1>Detalle de la actividad</h1>
+    <div>codigo actividad: {{actividad.codactividad}}</div>
+    <div>DNI instructor: {{actividad.codactividad}}</div>
+    <div>codigo modalidad: {{actividad.codmodalidad}}</div>
+    <div>dia: {{actividad.coddia}}</div>
+    <div>hora entrada: {{actividad.horaentrada}}</div>
+    <div>hora salida: {{actividad.horasalida}}</div>
+    <div>estado: {{actividad.estado}}</div>
+</div>
+<!-- /page content -->
+{% endblock %}
